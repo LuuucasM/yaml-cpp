@@ -16,38 +16,44 @@ C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\binary.h(16,26
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\binary.cpp(68,28): warning C4273: 'YAML::DecodeBase64': inconsistent dll linkage
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\binary.h(18,41): message : see previous definition of 'DecodeBase64' (compiling source file src\binary.cpp)
   Defining YAML_CPP_API for DLL import
-  Defining YAML_CPP_API for DLL import
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\binary.h(65,30): warning C4251: 'YAML::Binary::m_data': class 'std::vector<unsigned char,std::allocator<unsigned char>>' needs to have dll-interface to be used by clients of class 'YAML::Binary' (compiling source file src\emitfromevents.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\binary.h(18,19): message : see declaration of 'std::vector<unsigned char,std::allocator<unsigned char>>' (compiling source file src\emitfromevents.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception' (compiling source file src\depthguard.cpp)
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(101,7): message : see declaration of 'std::runtime_error' (compiling source file src\depthguard.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception' (compiling source file src\depthguard.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception' (compiling source file src\depthguard.cpp)
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\depthguard.cpp)
   Defining YAML_CPP_API for DLL import
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\parser.h(85,28): warning C4251: 'YAML::Parser::m_pScanner': class 'std::unique_ptr<YAML::Scanner,std::default_delete<YAML::Scanner>>' needs to have dll-interface to be used by clients of class 'YAML::Parser' (compiling source file src\contrib\graphbuilder.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\parser.h(85,8): message : see declaration of 'std::unique_ptr<YAML::Scanner,std::default_delete<YAML::Scanner>>' (compiling source file src\contrib\graphbuilder.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\binary.h(65,30): warning C4251: 'YAML::Binary::m_data': class 'std::vector<unsigned char,std::allocator<unsigned char>>' needs to have dll-interface to be used by clients of class 'YAML::Binary' (compiling source file src\emitfromevents.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\binary.h(18,19): message : see declaration of 'std::vector<unsigned char,std::allocator<unsigned char>>' (compiling source file src\emitfromevents.cpp)
+  Defining YAML_CPP_API for DLL import
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(49,29): warning C4251: 'YAML::ostream_wrapper::m_buffer': class 'std::vector<char,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::ostream_wrapper' (compiling source file src\emitfromevents.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(49,16): message : see declaration of 'std::vector<char,std::allocator<char>>' (compiling source file src\emitfromevents.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\parser.h(85,28): warning C4251: 'YAML::Parser::m_pScanner': class 'std::unique_ptr<YAML::Scanner,std::default_delete<YAML::Scanner>>' needs to have dll-interface to be used by clients of class 'YAML::Parser' (compiling source file src\contrib\graphbuilder.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\parser.h(85,8): message : see declaration of 'std::unique_ptr<YAML::Scanner,std::default_delete<YAML::Scanner>>' (compiling source file src\contrib\graphbuilder.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\binary.h(65,30): warning C4251: 'YAML::Binary::m_data': class 'std::vector<unsigned char,std::allocator<unsigned char>>' needs to have dll-interface to be used by clients of class 'YAML::Binary' (compiling source file src\emit.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\binary.h(18,19): message : see declaration of 'std::vector<unsigned char,std::allocator<unsigned char>>' (compiling source file src\emit.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\parser.h(86,31): warning C4251: 'YAML::Parser::m_pDirectives': class 'std::unique_ptr<YAML::Directives,std::default_delete<YAML::Directives>>' needs to have dll-interface to be used by clients of class 'YAML::Parser' (compiling source file src\contrib\graphbuilder.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\parser.h(86,8): message : see declaration of 'std::unique_ptr<YAML::Directives,std::default_delete<YAML::Directives>>' (compiling source file src\contrib\graphbuilder.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\emitter.h(132,33): warning C4251: 'YAML::Emitter::m_pState': class 'std::unique_ptr<YAML::EmitterState,std::default_delete<YAML::EmitterState>>' needs to have dll-interface to be used by clients of class 'YAML::Emitter' (compiling source file src\emitfromevents.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\emitter.h(132,8): message : see declaration of 'std::unique_ptr<YAML::EmitterState,std::default_delete<YAML::EmitterState>>' (compiling source file src\emitfromevents.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\binary.h(65,30): warning C4251: 'YAML::Binary::m_data': class 'std::vector<unsigned char,std::allocator<unsigned char>>' needs to have dll-interface to be used by clients of class 'YAML::Binary' (compiling source file src\emit.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\binary.h(18,19): message : see declaration of 'std::vector<unsigned char,std::allocator<unsigned char>>' (compiling source file src\emit.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(49,29): warning C4251: 'YAML::ostream_wrapper::m_buffer': class 'std::vector<char,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::ostream_wrapper' (compiling source file src\emit.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(49,16): message : see declaration of 'std::vector<char,std::allocator<char>>' (compiling source file src\emit.cpp)
-  Defining YAML_CPP_API for DLL import
+  emitter.cpp
+  emitterstate.cpp
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\emitter.h(132,33): warning C4251: 'YAML::Emitter::m_pState': class 'std::unique_ptr<YAML::EmitterState,std::default_delete<YAML::EmitterState>>' needs to have dll-interface to be used by clients of class 'YAML::Emitter' (compiling source file src\emit.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\emitter.h(132,8): message : see declaration of 'std::unique_ptr<YAML::EmitterState,std::default_delete<YAML::EmitterState>>' (compiling source file src\emit.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\binary.h(65,30): warning C4251: 'YAML::Binary::m_data': class 'std::vector<unsigned char,std::allocator<unsigned char>>' needs to have dll-interface to be used by clients of class 'YAML::Binary' (compiling source file src\convert.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\binary.h(18,19): message : see declaration of 'std::vector<unsigned char,std::allocator<unsigned char>>' (compiling source file src\convert.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\emit.cpp(7,10): warning C4273: 'YAML::operator <<': inconsistent dll linkage
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\emit.h(23,23): message : see previous definition of '<<' (compiling source file src\emit.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\emit.cpp(14,15): warning C4273: 'YAML::operator <<': inconsistent dll linkage
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\emit.h(26,28): message : see previous definition of '<<' (compiling source file src\emit.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\emit.cpp(20,13): warning C4273: 'YAML::Dump': inconsistent dll linkage
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\emit.h(29,26): message : see previous definition of 'Dump' (compiling source file src\emit.cpp)
+  emitterutils.cpp
+  exceptions.cpp
+  Defining YAML_CPP_API for DLL import
+  exp.cpp
+  Defining YAML_CPP_API for DLL import
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\binary.h(65,30): warning C4251: 'YAML::Binary::m_data': class 'std::vector<unsigned char,std::allocator<unsigned char>>' needs to have dll-interface to be used by clients of class 'YAML::Binary' (compiling source file src\convert.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\binary.h(18,19): message : see declaration of 'std::vector<unsigned char,std::allocator<unsigned char>>' (compiling source file src\convert.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception' (compiling source file src\convert.cpp)
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(101,7): message : see declaration of 'std::runtime_error' (compiling source file src\convert.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception' (compiling source file src\convert.cpp)
@@ -71,63 +77,43 @@ C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\no
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_iterator.h(40,23): message : see declaration of 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' (compiling source file src\convert.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(122,20): warning C4251: 'YAML::detail::node_data::m_undefinedPairs': class 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\convert.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(121,25): message : see declaration of 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' (compiling source file src\convert.cpp)
+  memory.cpp
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\convert.cpp(41,21): warning C4273: 'YAML::convert<bool>::decode': inconsistent dll linkage
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\convert.h(245,28): message : see previous definition of 'decode' (compiling source file src\convert.cpp)
-  emitter.cpp
-  emitterstate.cpp
-  emitterutils.cpp
-  exceptions.cpp
-  exp.cpp
-  Defining YAML_CPP_API for DLL import
-  memory.cpp
   node.cpp
-  node_data.cpp
   Defining YAML_CPP_API for DLL import
+  Defining YAML_CPP_API for DLL import
+  node_data.cpp
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(31,9): warning C4251: 'YAML::detail::memory::m_nodes': class 'std::set<YAML::detail::shared_node,std::less<YAML::detail::shared_node>,std::allocator<YAML::detail::shared_node>>' needs to have dll-interface to be used by clients of class 'YAML::detail::memory' (compiling source file src\memory.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(30,22): message : see declaration of 'std::set<YAML::detail::shared_node,std::less<YAML::detail::shared_node>,std::allocator<YAML::detail::shared_node>>' (compiling source file src\memory.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(42,17): warning C4251: 'YAML::detail::memory_holder::m_pMemory': class 'std::shared_ptr<YAML::detail::memory>' needs to have dll-interface to be used by clients of class 'YAML::detail::memory_holder' (compiling source file src\memory.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\ptr.h(24,28): message : see declaration of 'std::shared_ptr<YAML::detail::memory>' (compiling source file src\memory.cpp)
   Defining YAML_CPP_API for DLL import
   Defining YAML_CPP_API for DLL import
-  Defining YAML_CPP_API for DLL import
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\node.h(135,15): warning C4251: 'YAML::Node::m_invalidKey': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Node' (compiling source file src\node.cpp)
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\node.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\node.h(135,15): warning C4251: 'YAML::Node::m_invalidKey': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Node' (compiling source file src\memory.cpp)
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\memory.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\node.h(136,40): warning C4251: 'YAML::Node::m_pMemory': class 'std::shared_ptr<YAML::detail::memory_holder>' needs to have dll-interface to be used by clients of class 'YAML::Node' (compiling source file src\node.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\ptr.h(23,35): message : see declaration of 'std::shared_ptr<YAML::detail::memory_holder>' (compiling source file src\node.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(82,22): warning C4251: 'YAML::RegEx::m_params': class 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>' needs to have dll-interface to be used by clients of class 'YAML::RegEx' (compiling source file src\exp.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(82,8): message : see declaration of 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>' (compiling source file src\exp.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\node.h(136,40): warning C4251: 'YAML::Node::m_pMemory': class 'std::shared_ptr<YAML::detail::memory_holder>' needs to have dll-interface to be used by clients of class 'YAML::Node' (compiling source file src\memory.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\ptr.h(23,35): message : see declaration of 'std::shared_ptr<YAML::detail::memory_holder>' (compiling source file src\memory.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(104,15): warning C4251: 'YAML::detail::node_data::m_tag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\memory.cpp)
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\memory.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(108,15): warning C4251: 'YAML::detail::node_data::m_scalar': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\memory.cpp)
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\memory.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(112,12): warning C4251: 'YAML::detail::node_data::m_sequence': class 'std::vector<YAML::detail::node *,std::allocator<YAML::detail::node *>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\memory.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_iterator.h(39,23): message : see declaration of 'std::vector<YAML::detail::node *,std::allocator<YAML::detail::node *>>' (compiling source file src\memory.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(118,12): warning C4251: 'YAML::detail::node_data::m_map': class 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\memory.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_iterator.h(40,23): message : see declaration of 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' (compiling source file src\memory.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(49,29): warning C4251: 'YAML::ostream_wrapper::m_buffer': class 'std::vector<char,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::ostream_wrapper' (compiling source file src\emitter.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(49,16): message : see declaration of 'std::vector<char,std::allocator<char>>' (compiling source file src\emitter.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception' (compiling source file src\exceptions.cpp)
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(101,7): message : see declaration of 'std::runtime_error' (compiling source file src\exceptions.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception' (compiling source file src\exceptions.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception' (compiling source file src\exceptions.cpp)
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\exceptions.cpp)
-  Defining YAML_CPP_API for DLL import
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(122,20): warning C4251: 'YAML::detail::node_data::m_undefinedPairs': class 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\memory.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(121,25): message : see declaration of 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' (compiling source file src\memory.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(49,29): warning C4251: 'YAML::ostream_wrapper::m_buffer': class 'std::vector<char,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::ostream_wrapper' (compiling source file src\emitter.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(49,16): message : see declaration of 'std::vector<char,std::allocator<char>>' (compiling source file src\emitter.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\exceptions.cpp(7,13): warning C4273: 'YAML::Exception::~Exception': inconsistent dll linkage
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(157,4): message : see previous definition of '{dtor}' (compiling source file src\exceptions.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\exceptions.cpp(8,19): warning C4273: 'YAML::ParserException::~ParserException': inconsistent dll linkage
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(183,4): message : see previous definition of '{dtor}' (compiling source file src\exceptions.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\binary.h(65,30): warning C4251: 'YAML::Binary::m_data': class 'std::vector<unsigned char,std::allocator<unsigned char>>' needs to have dll-interface to be used by clients of class 'YAML::Binary' (compiling source file src\emitter.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\binary.h(18,19): message : see declaration of 'std::vector<unsigned char,std::allocator<unsigned char>>' (compiling source file src\emitter.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\exceptions.cpp(9,27): warning C4273: 'YAML::RepresentationException::~RepresentationException': inconsistent dll linkage
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(191,4): message : see previous definition of '{dtor}' (compiling source file src\exceptions.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\exceptions.cpp(10,17): warning C4273: 'YAML::InvalidScalar::~InvalidScalar': inconsistent dll linkage
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(200,4): message : see previous definition of '{dtor}' (compiling source file src\exceptions.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\exceptions.cpp(11,15): warning C4273: 'YAML::KeyNotFound::~KeyNotFound': inconsistent dll linkage
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(210,4): message : see previous definition of '{dtor}' (compiling source file src\exceptions.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception' (compiling source file src\emitterstate.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(101,7): message : see declaration of 'std::runtime_error' (compiling source file src\emitterstate.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception' (compiling source file src\emitterstate.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception' (compiling source file src\emitterstate.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\emitterstate.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\exceptions.cpp(12,15): warning C4273: 'YAML::InvalidNode::~InvalidNode': inconsistent dll linkage
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(235,4): message : see previous definition of '{dtor}' (compiling source file src\exceptions.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\exceptions.cpp(13,17): warning C4273: 'YAML::BadConversion::~BadConversion': inconsistent dll linkage
@@ -142,15 +128,8 @@ C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\exceptions.cpp(17,13): warn
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(282,4): message : see previous definition of '{dtor}' (compiling source file src\exceptions.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\exceptions.cpp(18,20): warning C4273: 'YAML::EmitterException::~EmitterException': inconsistent dll linkage
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(290,4): message : see previous definition of '{dtor}' (compiling source file src\exceptions.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\binary.h(65,30): warning C4251: 'YAML::Binary::m_data': class 'std::vector<unsigned char,std::allocator<unsigned char>>' needs to have dll-interface to be used by clients of class 'YAML::Binary' (compiling source file src\emitter.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\binary.h(18,19): message : see declaration of 'std::vector<unsigned char,std::allocator<unsigned char>>' (compiling source file src\emitter.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\exceptions.cpp(19,11): warning C4273: 'YAML::BadFile::~BadFile': inconsistent dll linkage
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(299,4): message : see previous definition of '{dtor}' (compiling source file src\exceptions.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception' (compiling source file src\emitterstate.cpp)
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(101,7): message : see declaration of 'std::runtime_error' (compiling source file src\emitterstate.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception' (compiling source file src\emitterstate.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception' (compiling source file src\emitterstate.cpp)
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\emitterstate.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\emitter.h(132,33): warning C4251: 'YAML::Emitter::m_pState': class 'std::unique_ptr<YAML::EmitterState,std::default_delete<YAML::EmitterState>>' needs to have dll-interface to be used by clients of class 'YAML::Emitter' (compiling source file src\emitter.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\emitter.h(132,8): message : see declaration of 'std::unique_ptr<YAML::EmitterState,std::default_delete<YAML::EmitterState>>' (compiling source file src\emitter.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception' (compiling source file src\emitter.cpp)
@@ -158,8 +137,6 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.3193
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception' (compiling source file src\emitter.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception' (compiling source file src\emitter.cpp)
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\emitter.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\node.cpp(6,6): warning C4273: 'YAML::Clone': inconsistent dll linkage
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\node.h(142,19): message : see previous definition of 'Clone' (compiling source file src\node.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\emitter.cpp(14,10): warning C4273: 'YAML::Emitter::Emitter': inconsistent dll linkage
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\emitter.h(35,3): message : see previous definition of '{ctor}' (compiling source file src\emitter.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\emitter.cpp(16,10): warning C4273: 'YAML::Emitter::Emitter': inconsistent dll linkage
@@ -182,13 +159,8 @@ C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\emitter.cpp(41,15): warning
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\emitter.h(52,8): message : see previous definition of 'SetBoolFormat' (compiling source file src\emitter.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\emitter.cpp(52,15): warning C4273: 'YAML::Emitter::SetNullFormat': inconsistent dll linkage
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\emitter.h(53,8): message : see previous definition of 'SetNullFormat' (compiling source file src\emitter.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception' (compiling source file src\exp.cpp)
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(101,7): message : see declaration of 'std::runtime_error' (compiling source file src\exp.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception' (compiling source file src\exp.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\emitter.cpp(56,15): warning C4273: 'YAML::Emitter::SetIntBase': inconsistent dll linkage
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\emitter.h(54,8): message : see previous definition of 'SetIntBase' (compiling source file src\emitter.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception' (compiling source file src\exp.cpp)
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\exp.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\emitter.cpp(60,15): warning C4273: 'YAML::Emitter::SetSeqFormat': inconsistent dll linkage
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\emitter.h(55,8): message : see previous definition of 'SetSeqFormat' (compiling source file src\emitter.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\emitter.cpp(64,15): warning C4273: 'YAML::Emitter::SetMapFormat': inconsistent dll linkage
@@ -233,12 +205,8 @@ C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\emitter.cpp(303,15): warnin
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\emitter.h(107,8): message : see previous definition of 'PrepareTopNode' (compiling source file src\emitter.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\emitter.cpp(329,15): warning C4273: 'YAML::Emitter::FlowSeqPrepareNode': inconsistent dll linkage
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\emitter.h(108,8): message : see previous definition of 'FlowSeqPrepareNode' (compiling source file src\emitter.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\memory.cpp(8,21): warning C4273: 'YAML::detail::memory_holder::merge': inconsistent dll linkage
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(39,8): message : see previous definition of 'merge' (compiling source file src\memory.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\emitter.cpp(360,15): warning C4273: 'YAML::Emitter::BlockSeqPrepareNode': inconsistent dll linkage
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\emitter.h(109,8): message : see previous definition of 'BlockSeqPrepareNode' (compiling source file src\emitter.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\memory.cpp(16,15): warning C4273: 'YAML::detail::memory::create_node': inconsistent dll linkage
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(26,9): message : see previous definition of 'create_node' (compiling source file src\memory.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\emitter.cpp(394,15): warning C4273: 'YAML::Emitter::FlowMapPrepareNode': inconsistent dll linkage
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\emitter.h(111,8): message : see previous definition of 'FlowMapPrepareNode' (compiling source file src\emitter.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\emitter.cpp(411,15): warning C4273: 'YAML::Emitter::FlowMapPrepareLongKey': inconsistent dll linkage
@@ -249,8 +217,6 @@ C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\emitter.cpp(470,15): warnin
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\emitter.h(115,8): message : see previous definition of 'FlowMapPrepareSimpleKey' (compiling source file src\emitter.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\emitter.cpp(501,15): warning C4273: 'YAML::Emitter::FlowMapPrepareSimpleKeyValue': inconsistent dll linkage
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\emitter.h(116,8): message : see previous definition of 'FlowMapPrepareSimpleKeyValue' (compiling source file src\emitter.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\memory.cpp(22,14): warning C4273: 'YAML::detail::memory::merge': inconsistent dll linkage
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(27,8): message : see previous definition of 'merge' (compiling source file src\memory.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\emitter.cpp(532,15): warning C4273: 'YAML::Emitter::BlockMapPrepareNode': inconsistent dll linkage
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\emitter.h(118,8): message : see previous definition of 'BlockMapPrepareNode' (compiling source file src\emitter.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\emitter.cpp(553,15): warning C4273: 'YAML::Emitter::BlockMapPrepareLongKey': inconsistent dll linkage
@@ -295,35 +261,79 @@ C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\emitter.cpp(948,19): warnin
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\emitter.h(77,12): message : see previous definition of 'Write' (compiling source file src\emitter.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\emitter.cpp(961,19): warning C4273: 'YAML::Emitter::Write': inconsistent dll linkage
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\emitter.h(78,12): message : see previous definition of 'Write' (compiling source file src\emitter.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\node.h(135,15): warning C4251: 'YAML::Node::m_invalidKey': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Node' (compiling source file src\node.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\node.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\node.h(136,40): warning C4251: 'YAML::Node::m_pMemory': class 'std::shared_ptr<YAML::detail::memory_holder>' needs to have dll-interface to be used by clients of class 'YAML::Node' (compiling source file src\node.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\ptr.h(23,35): message : see declaration of 'std::shared_ptr<YAML::detail::memory_holder>' (compiling source file src\node.cpp)
+  Defining YAML_CPP_API for DLL import
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(82,22): warning C4251: 'YAML::RegEx::m_params': class 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>' needs to have dll-interface to be used by clients of class 'YAML::RegEx' (compiling source file src\exp.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(82,8): message : see declaration of 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>' (compiling source file src\exp.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\node.h(135,15): warning C4251: 'YAML::Node::m_invalidKey': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Node' (compiling source file src\memory.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\memory.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\node.h(136,40): warning C4251: 'YAML::Node::m_pMemory': class 'std::shared_ptr<YAML::detail::memory_holder>' needs to have dll-interface to be used by clients of class 'YAML::Node' (compiling source file src\memory.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\ptr.h(23,35): message : see declaration of 'std::shared_ptr<YAML::detail::memory_holder>' (compiling source file src\memory.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(104,15): warning C4251: 'YAML::detail::node_data::m_tag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\memory.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\memory.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(108,15): warning C4251: 'YAML::detail::node_data::m_scalar': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\memory.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\memory.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(112,12): warning C4251: 'YAML::detail::node_data::m_sequence': class 'std::vector<YAML::detail::node *,std::allocator<YAML::detail::node *>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\memory.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_iterator.h(39,23): message : see declaration of 'std::vector<YAML::detail::node *,std::allocator<YAML::detail::node *>>' (compiling source file src\memory.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(118,12): warning C4251: 'YAML::detail::node_data::m_map': class 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\memory.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_iterator.h(40,23): message : see declaration of 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' (compiling source file src\memory.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\node.cpp(6,6): warning C4273: 'YAML::Clone': inconsistent dll linkage
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\node.h(142,19): message : see previous definition of 'Clone' (compiling source file src\node.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(122,20): warning C4251: 'YAML::detail::node_data::m_undefinedPairs': class 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\memory.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(121,25): message : see declaration of 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' (compiling source file src\memory.cpp)
   Defining YAML_CPP_API for DLL import
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(49,29): warning C4251: 'YAML::ostream_wrapper::m_buffer': class 'std::vector<char,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::ostream_wrapper' (compiling source file src\emitterutils.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(49,16): message : see declaration of 'std::vector<char,std::allocator<char>>' (compiling source file src\emitterutils.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(82,22): warning C4251: 'YAML::RegEx::m_params': class 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>' needs to have dll-interface to be used by clients of class 'YAML::RegEx' (compiling source file src\emitterutils.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(82,8): message : see declaration of 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>' (compiling source file src\emitterutils.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\memory.cpp(8,21): warning C4273: 'YAML::detail::memory_holder::merge': inconsistent dll linkage
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(39,8): message : see previous definition of 'merge' (compiling source file src\memory.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\memory.cpp(16,15): warning C4273: 'YAML::detail::memory::create_node': inconsistent dll linkage
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(26,9): message : see previous definition of 'create_node' (compiling source file src\memory.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception' (compiling source file src\exp.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(101,7): message : see declaration of 'std::runtime_error' (compiling source file src\exp.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception' (compiling source file src\exp.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception' (compiling source file src\exp.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\exp.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\memory.cpp(22,14): warning C4273: 'YAML::detail::memory::merge': inconsistent dll linkage
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(27,8): message : see previous definition of 'merge' (compiling source file src\memory.cpp)
   nodebuilder.cpp
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\binary.h(65,30): warning C4251: 'YAML::Binary::m_data': class 'std::vector<unsigned char,std::allocator<unsigned char>>' needs to have dll-interface to be used by clients of class 'YAML::Binary' (compiling source file src\emitterutils.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\binary.h(18,19): message : see declaration of 'std::vector<unsigned char,std::allocator<unsigned char>>' (compiling source file src\emitterutils.cpp)
   nodeevents.cpp
   null.cpp
+  Defining YAML_CPP_API for DLL import
   ostream_wrapper.cpp
-  Defining YAML_CPP_API for DLL import
   parse.cpp
+  parser.cpp
+  regex_yaml.cpp
   Defining YAML_CPP_API for DLL import
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\null.cpp(4,7): warning C4273: 'YAML::Null': inconsistent dll linkage
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\null.h(23,27): message : see previous definition of 'Null' (compiling source file src\null.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\null.cpp(6,6): warning C4273: 'YAML::IsNullString': inconsistent dll linkage
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\null.h(21,19): message : see previous definition of 'IsNullString' (compiling source file src\null.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception' (compiling source file src\node_data.cpp)
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(101,7): message : see declaration of 'std::runtime_error' (compiling source file src\node_data.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception' (compiling source file src\node_data.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception' (compiling source file src\node_data.cpp)
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\node_data.cpp)
-  parser.cpp
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(31,9): warning C4251: 'YAML::detail::memory::m_nodes': class 'std::set<YAML::detail::shared_node,std::less<YAML::detail::shared_node>,std::allocator<YAML::detail::shared_node>>' needs to have dll-interface to be used by clients of class 'YAML::detail::memory' (compiling source file src\node_data.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(30,22): message : see declaration of 'std::set<YAML::detail::shared_node,std::less<YAML::detail::shared_node>,std::allocator<YAML::detail::shared_node>>' (compiling source file src\node_data.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(42,17): warning C4251: 'YAML::detail::memory_holder::m_pMemory': class 'std::shared_ptr<YAML::detail::memory>' needs to have dll-interface to be used by clients of class 'YAML::detail::memory_holder' (compiling source file src\node_data.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\ptr.h(24,28): message : see declaration of 'std::shared_ptr<YAML::detail::memory>' (compiling source file src\node_data.cpp)
-  regex_yaml.cpp
+  Defining YAML_CPP_API for DLL import
+  Defining YAML_CPP_API for DLL import
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(49,29): warning C4251: 'YAML::ostream_wrapper::m_buffer': class 'std::vector<char,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::ostream_wrapper' (compiling source file src\ostream_wrapper.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(49,16): message : see declaration of 'std::vector<char,std::allocator<char>>' (compiling source file src\ostream_wrapper.cpp)
+  scanner.cpp
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\node.h(135,15): warning C4251: 'YAML::Node::m_invalidKey': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Node' (compiling source file src\node_data.cpp)
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\node_data.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\node.h(136,40): warning C4251: 'YAML::Node::m_pMemory': class 'std::shared_ptr<YAML::detail::memory_holder>' needs to have dll-interface to be used by clients of class 'YAML::Node' (compiling source file src\node_data.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\ptr.h(23,35): message : see declaration of 'std::shared_ptr<YAML::detail::memory_holder>' (compiling source file src\node_data.cpp)
+  Defining YAML_CPP_API for DLL import
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(104,15): warning C4251: 'YAML::detail::node_data::m_tag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\node_data.cpp)
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\node_data.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(108,15): warning C4251: 'YAML::detail::node_data::m_scalar': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\node_data.cpp)
@@ -334,6 +344,21 @@ C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\no
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_iterator.h(40,23): message : see declaration of 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' (compiling source file src\node_data.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(122,20): warning C4251: 'YAML::detail::node_data::m_undefinedPairs': class 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\node_data.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(121,25): message : see declaration of 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' (compiling source file src\node_data.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\node.h(135,15): warning C4251: 'YAML::Node::m_invalidKey': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Node' (compiling source file src\nodebuilder.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\nodebuilder.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\node.h(136,40): warning C4251: 'YAML::Node::m_pMemory': class 'std::shared_ptr<YAML::detail::memory_holder>' needs to have dll-interface to be used by clients of class 'YAML::Node' (compiling source file src\nodebuilder.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\ptr.h(23,35): message : see declaration of 'std::shared_ptr<YAML::detail::memory_holder>' (compiling source file src\nodebuilder.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(104,15): warning C4251: 'YAML::detail::node_data::m_tag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\nodebuilder.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\nodebuilder.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(108,15): warning C4251: 'YAML::detail::node_data::m_scalar': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\nodebuilder.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\nodebuilder.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(112,12): warning C4251: 'YAML::detail::node_data::m_sequence': class 'std::vector<YAML::detail::node *,std::allocator<YAML::detail::node *>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\nodebuilder.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\nodebuilder.h(64,22): message : see declaration of 'std::vector<YAML::detail::node *,std::allocator<YAML::detail::node *>>' (compiling source file src\nodebuilder.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(118,12): warning C4251: 'YAML::detail::node_data::m_map': class 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\nodebuilder.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_iterator.h(40,23): message : see declaration of 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' (compiling source file src\nodebuilder.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(122,20): warning C4251: 'YAML::detail::node_data::m_undefinedPairs': class 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\nodebuilder.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(121,25): message : see declaration of 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' (compiling source file src\nodebuilder.cpp)
+  Defining YAML_CPP_API for DLL import
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\node_data.cpp(16,34): error C2720: 'YAML::detail::node::m_amount': '__declspec(dllimport)' storage-class specifier illegal on members
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\node_data.cpp(16,34): error C2491: 'YAML::detail::node::m_amount': definition of dllimport static data member not allowed
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\node_data.cpp(18,31): warning C4273: 'YAML::detail::node_data::empty_scalar': inconsistent dll linkage
@@ -388,35 +413,11 @@ C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\node_data.cpp(289,17): warn
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(94,8): message : see previous definition of 'convert_to_map' (compiling source file src\node_data.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\node_data.cpp(307,17): warning C4273: 'YAML::detail::node_data::convert_sequence_to_map': inconsistent dll linkage
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(95,8): message : see previous definition of 'convert_sequence_to_map' (compiling source file src\node_data.cpp)
-  scanner.cpp
-  Defining YAML_CPP_API for DLL import
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\node.h(135,15): warning C4251: 'YAML::Node::m_invalidKey': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Node' (compiling source file src\nodebuilder.cpp)
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\nodebuilder.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\node.h(136,40): warning C4251: 'YAML::Node::m_pMemory': class 'std::shared_ptr<YAML::detail::memory_holder>' needs to have dll-interface to be used by clients of class 'YAML::Node' (compiling source file src\nodebuilder.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\ptr.h(23,35): message : see declaration of 'std::shared_ptr<YAML::detail::memory_holder>' (compiling source file src\nodebuilder.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(104,15): warning C4251: 'YAML::detail::node_data::m_tag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\nodebuilder.cpp)
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\nodebuilder.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(108,15): warning C4251: 'YAML::detail::node_data::m_scalar': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\nodebuilder.cpp)
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\nodebuilder.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(112,12): warning C4251: 'YAML::detail::node_data::m_sequence': class 'std::vector<YAML::detail::node *,std::allocator<YAML::detail::node *>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\nodebuilder.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\nodebuilder.h(64,22): message : see declaration of 'std::vector<YAML::detail::node *,std::allocator<YAML::detail::node *>>' (compiling source file src\nodebuilder.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(118,12): warning C4251: 'YAML::detail::node_data::m_map': class 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\nodebuilder.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_iterator.h(40,23): message : see declaration of 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' (compiling source file src\nodebuilder.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(122,20): warning C4251: 'YAML::detail::node_data::m_undefinedPairs': class 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\nodebuilder.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(121,25): message : see declaration of 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' (compiling source file src\nodebuilder.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\null.cpp(4,7): warning C4273: 'YAML::Null': inconsistent dll linkage
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\null.h(23,27): message : see previous definition of 'Null' (compiling source file src\null.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\null.cpp(6,6): warning C4273: 'YAML::IsNullString': inconsistent dll linkage
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\null.h(21,19): message : see previous definition of 'IsNullString' (compiling source file src\null.cpp)
-  Defining YAML_CPP_API for DLL import
-  Defining YAML_CPP_API for DLL import
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(49,29): warning C4251: 'YAML::ostream_wrapper::m_buffer': class 'std::vector<char,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::ostream_wrapper' (compiling source file src\ostream_wrapper.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(49,16): message : see declaration of 'std::vector<char,std::allocator<char>>' (compiling source file src\ostream_wrapper.cpp)
+  scanscalar.cpp
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\node.h(135,15): warning C4251: 'YAML::Node::m_invalidKey': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Node' (compiling source file src\nodeevents.cpp)
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\nodeevents.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\node.h(136,40): warning C4251: 'YAML::Node::m_pMemory': class 'std::shared_ptr<YAML::detail::memory_holder>' needs to have dll-interface to be used by clients of class 'YAML::Node' (compiling source file src\nodeevents.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\ptr.h(23,35): message : see declaration of 'std::shared_ptr<YAML::detail::memory_holder>' (compiling source file src\nodeevents.cpp)
-  Defining YAML_CPP_API for DLL import
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(104,15): warning C4251: 'YAML::detail::node_data::m_tag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\nodeevents.cpp)
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\nodeevents.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(108,15): warning C4251: 'YAML::detail::node_data::m_scalar': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\nodeevents.cpp)
@@ -427,7 +428,6 @@ C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\no
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_iterator.h(40,23): message : see declaration of 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' (compiling source file src\nodeevents.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(122,20): warning C4251: 'YAML::detail::node_data::m_undefinedPairs': class 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\nodeevents.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(121,25): message : see declaration of 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' (compiling source file src\nodeevents.cpp)
-  scanscalar.cpp
   Defining YAML_CPP_API for DLL import
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(82,22): warning C4251: 'YAML::RegEx::m_params': class 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>' needs to have dll-interface to be used by clients of class 'YAML::RegEx' (compiling source file src\regex_yaml.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(82,8): message : see declaration of 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>' (compiling source file src\regex_yaml.cpp)
@@ -457,29 +457,11 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.3193
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception' (compiling source file src\parse.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception' (compiling source file src\parse.cpp)
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\parse.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.cpp(6,8): warning C4273: 'YAML::RegEx::RegEx': inconsistent dll linkage
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(56,3): message : see previous definition of '{ctor}' (compiling source file src\regex_yaml.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.cpp(7,8): warning C4273: 'YAML::RegEx::RegEx': inconsistent dll linkage
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(33,3): message : see previous definition of '{ctor}' (compiling source file src\regex_yaml.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.cpp(9,8): warning C4273: 'YAML::RegEx::RegEx': inconsistent dll linkage
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(34,3): message : see previous definition of '{ctor}' (compiling source file src\regex_yaml.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(31,9): warning C4251: 'YAML::detail::memory::m_nodes': class 'std::set<YAML::detail::shared_node,std::less<YAML::detail::shared_node>,std::allocator<YAML::detail::shared_node>>' needs to have dll-interface to be used by clients of class 'YAML::detail::memory' (compiling source file src\parse.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(30,22): message : see declaration of 'std::set<YAML::detail::shared_node,std::less<YAML::detail::shared_node>,std::allocator<YAML::detail::shared_node>>' (compiling source file src\parse.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.cpp(11,8): warning C4273: 'YAML::RegEx::RegEx': inconsistent dll linkage
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(35,3): message : see previous definition of '{ctor}' (compiling source file src\regex_yaml.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.cpp(13,8): warning C4273: 'YAML::RegEx::RegEx': inconsistent dll linkage
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(36,3): message : see previous definition of '{ctor}' (compiling source file src\regex_yaml.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.cpp(17,7): warning C4273: 'YAML::operator !': inconsistent dll linkage
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(39,29): message : see previous definition of '!' (compiling source file src\regex_yaml.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.cpp(23,7): warning C4273: 'YAML::operator |': inconsistent dll linkage
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(40,29): message : see previous definition of '|' (compiling source file src\regex_yaml.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(42,17): warning C4251: 'YAML::detail::memory_holder::m_pMemory': class 'std::shared_ptr<YAML::detail::memory>' needs to have dll-interface to be used by clients of class 'YAML::detail::memory_holder' (compiling source file src\parse.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\ptr.h(24,28): message : see declaration of 'std::shared_ptr<YAML::detail::memory>' (compiling source file src\parse.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.cpp(30,7): warning C4273: 'YAML::operator &': inconsistent dll linkage
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(41,29): message : see previous definition of '&' (compiling source file src\regex_yaml.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.cpp(37,7): warning C4273: 'YAML::operator +': inconsistent dll linkage
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(42,29): message : see previous definition of '+' (compiling source file src\regex_yaml.cpp)
-  Defining YAML_CPP_API for DLL import
+  scantag.cpp
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\node.h(135,15): warning C4251: 'YAML::Node::m_invalidKey': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Node' (compiling source file src\parse.cpp)
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\parse.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\node.h(136,40): warning C4251: 'YAML::Node::m_pMemory': class 'std::shared_ptr<YAML::detail::memory_holder>' needs to have dll-interface to be used by clients of class 'YAML::Node' (compiling source file src\parse.cpp)
@@ -494,7 +476,50 @@ C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\no
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_iterator.h(40,23): message : see declaration of 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' (compiling source file src\parse.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(122,20): warning C4251: 'YAML::detail::node_data::m_undefinedPairs': class 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data' (compiling source file src\parse.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(121,25): message : see declaration of 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' (compiling source file src\parse.cpp)
-  scantag.cpp
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.cpp(6,8): warning C4273: 'YAML::RegEx::RegEx': inconsistent dll linkage
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(56,3): message : see previous definition of '{ctor}' (compiling source file src\regex_yaml.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.cpp(7,8): warning C4273: 'YAML::RegEx::RegEx': inconsistent dll linkage
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(33,3): message : see previous definition of '{ctor}' (compiling source file src\regex_yaml.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.cpp(9,8): warning C4273: 'YAML::RegEx::RegEx': inconsistent dll linkage
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(34,3): message : see previous definition of '{ctor}' (compiling source file src\regex_yaml.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.cpp(11,8): warning C4273: 'YAML::RegEx::RegEx': inconsistent dll linkage
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(35,3): message : see previous definition of '{ctor}' (compiling source file src\regex_yaml.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.cpp(13,8): warning C4273: 'YAML::RegEx::RegEx': inconsistent dll linkage
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(36,3): message : see previous definition of '{ctor}' (compiling source file src\regex_yaml.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.cpp(17,7): warning C4273: 'YAML::operator !': inconsistent dll linkage
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(39,29): message : see previous definition of '!' (compiling source file src\regex_yaml.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.cpp(23,7): warning C4273: 'YAML::operator |': inconsistent dll linkage
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(40,29): message : see previous definition of '|' (compiling source file src\regex_yaml.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.cpp(30,7): warning C4273: 'YAML::operator &': inconsistent dll linkage
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(41,29): message : see previous definition of '&' (compiling source file src\regex_yaml.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.cpp(37,7): warning C4273: 'YAML::operator +': inconsistent dll linkage
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(42,29): message : see previous definition of '+' (compiling source file src\regex_yaml.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\parser.h(85,28): warning C4251: 'YAML::Parser::m_pScanner': class 'std::unique_ptr<YAML::Scanner,std::default_delete<YAML::Scanner>>' needs to have dll-interface to be used by clients of class 'YAML::Parser' (compiling source file src\parse.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\parser.h(85,8): message : see declaration of 'std::unique_ptr<YAML::Scanner,std::default_delete<YAML::Scanner>>' (compiling source file src\parse.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\parser.h(86,31): warning C4251: 'YAML::Parser::m_pDirectives': class 'std::unique_ptr<YAML::Directives,std::default_delete<YAML::Directives>>' needs to have dll-interface to be used by clients of class 'YAML::Parser' (compiling source file src\parse.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\parser.h(86,8): message : see declaration of 'std::unique_ptr<YAML::Directives,std::default_delete<YAML::Directives>>' (compiling source file src\parse.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\parse.cpp(12,6): warning C4273: 'YAML::Load': inconsistent dll linkage
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\parse.h(24,19): message : see previous definition of 'Load' (compiling source file src\parse.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\parse.cpp(17,6): warning C4273: 'YAML::Load': inconsistent dll linkage
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\parse.h(31,19): message : see previous definition of 'Load' (compiling source file src\parse.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\parse.cpp(22,6): warning C4273: 'YAML::Load': inconsistent dll linkage
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\parse.h(38,19): message : see previous definition of 'Load' (compiling source file src\parse.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\parse.cpp(32,6): warning C4273: 'YAML::LoadFile': inconsistent dll linkage
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\parse.h(46,19): message : see previous definition of 'LoadFile' (compiling source file src\parse.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\parse.cpp(40,19): warning C4273: 'YAML::LoadAll': inconsistent dll linkage
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\parse.h(53,32): message : see previous definition of 'LoadAll' (compiling source file src\parse.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\parse.cpp(45,19): warning C4273: 'YAML::LoadAll': inconsistent dll linkage
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\parse.h(60,32): message : see previous definition of 'LoadAll' (compiling source file src\parse.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\parse.cpp(50,19): warning C4273: 'YAML::LoadAll': inconsistent dll linkage
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\parse.h(67,32): message : see previous definition of 'LoadAll' (compiling source file src\parse.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\parse.cpp(65,19): warning C4273: 'YAML::LoadAllFromFile': inconsistent dll linkage
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\parse.h(75,32): message : see previous definition of 'LoadAllFromFile' (compiling source file src\parse.cpp)
+  Defining YAML_CPP_API for DLL import
+  scantoken.cpp
+  simplekey.cpp
+  Defining YAML_CPP_API for DLL import
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(82,22): warning C4251: 'YAML::RegEx::m_params': class 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>' needs to have dll-interface to be used by clients of class 'YAML::RegEx' (compiling source file src\scanscalar.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(82,8): message : see declaration of 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>' (compiling source file src\scanscalar.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception' (compiling source file src\parser.cpp)
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(101,7): message : see declaration of 'std::runtime_error' (compiling source file src\parser.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception' (compiling source file src\parser.cpp)
@@ -524,37 +549,14 @@ C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\parser.cpp(70,14): warning 
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\parser.h(76,8): message : see previous definition of 'HandleYamlDirective' (compiling source file src\parser.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\parser.cpp(96,14): warning C4273: 'YAML::Parser::HandleTagDirective': inconsistent dll linkage
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\parser.h(82,8): message : see previous definition of 'HandleTagDirective' (compiling source file src\parser.cpp)
-  Defining YAML_CPP_API for DLL import
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\parser.cpp(109,14): warning C4273: 'YAML::Parser::PrintTokens': inconsistent dll linkage
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\parser.h(61,8): message : see previous definition of 'PrintTokens' (compiling source file src\parser.cpp)
+  singledocparser.cpp
+  Defining YAML_CPP_API for DLL import
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(82,22): warning C4251: 'YAML::RegEx::m_params': class 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>' needs to have dll-interface to be used by clients of class 'YAML::RegEx' (compiling source file src\scanner.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(82,8): message : see declaration of 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>' (compiling source file src\scanner.cpp)
-  scantoken.cpp
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\parser.h(85,28): warning C4251: 'YAML::Parser::m_pScanner': class 'std::unique_ptr<YAML::Scanner,std::default_delete<YAML::Scanner>>' needs to have dll-interface to be used by clients of class 'YAML::Parser' (compiling source file src\parse.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\parser.h(85,8): message : see declaration of 'std::unique_ptr<YAML::Scanner,std::default_delete<YAML::Scanner>>' (compiling source file src\parse.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\parser.h(86,31): warning C4251: 'YAML::Parser::m_pDirectives': class 'std::unique_ptr<YAML::Directives,std::default_delete<YAML::Directives>>' needs to have dll-interface to be used by clients of class 'YAML::Parser' (compiling source file src\parse.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\parser.h(86,8): message : see declaration of 'std::unique_ptr<YAML::Directives,std::default_delete<YAML::Directives>>' (compiling source file src\parse.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\parse.cpp(12,6): warning C4273: 'YAML::Load': inconsistent dll linkage
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\parse.h(24,19): message : see previous definition of 'Load' (compiling source file src\parse.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\parse.cpp(17,6): warning C4273: 'YAML::Load': inconsistent dll linkage
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\parse.h(31,19): message : see previous definition of 'Load' (compiling source file src\parse.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\parse.cpp(22,6): warning C4273: 'YAML::Load': inconsistent dll linkage
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\parse.h(38,19): message : see previous definition of 'Load' (compiling source file src\parse.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\parse.cpp(32,6): warning C4273: 'YAML::LoadFile': inconsistent dll linkage
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\parse.h(46,19): message : see previous definition of 'LoadFile' (compiling source file src\parse.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\parse.cpp(40,19): warning C4273: 'YAML::LoadAll': inconsistent dll linkage
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\parse.h(53,32): message : see previous definition of 'LoadAll' (compiling source file src\parse.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\parse.cpp(45,19): warning C4273: 'YAML::LoadAll': inconsistent dll linkage
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\parse.h(60,32): message : see previous definition of 'LoadAll' (compiling source file src\parse.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\parse.cpp(50,19): warning C4273: 'YAML::LoadAll': inconsistent dll linkage
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\parse.h(67,32): message : see previous definition of 'LoadAll' (compiling source file src\parse.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\parse.cpp(65,19): warning C4273: 'YAML::LoadAllFromFile': inconsistent dll linkage
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\node\parse.h(75,32): message : see previous definition of 'LoadAllFromFile' (compiling source file src\parse.cpp)
-  Defining YAML_CPP_API for DLL import
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(82,22): warning C4251: 'YAML::RegEx::m_params': class 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>' needs to have dll-interface to be used by clients of class 'YAML::RegEx' (compiling source file src\scanscalar.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(82,8): message : see declaration of 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>' (compiling source file src\scanscalar.cpp)
-  simplekey.cpp
-  singledocparser.cpp
+  stream.cpp
+  tag.cpp
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception' (compiling source file src\scanner.cpp)
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(101,7): message : see declaration of 'std::runtime_error' (compiling source file src\scanner.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception' (compiling source file src\scanner.cpp)
@@ -565,19 +567,18 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.3193
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception' (compiling source file src\scanscalar.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception' (compiling source file src\scanscalar.cpp)
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\scanscalar.cpp)
-  stream.cpp
-  tag.cpp
   Defining YAML_CPP_API for DLL import
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(82,22): warning C4251: 'YAML::RegEx::m_params': class 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>' needs to have dll-interface to be used by clients of class 'YAML::RegEx' (compiling source file src\scantag.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(82,8): message : see declaration of 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>' (compiling source file src\scantag.cpp)
-  Defining YAML_CPP_API for DLL import
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(82,22): warning C4251: 'YAML::RegEx::m_params': class 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>' needs to have dll-interface to be used by clients of class 'YAML::RegEx' (compiling source file src\scantoken.cpp)
-C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(82,8): message : see declaration of 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>' (compiling source file src\scantoken.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception' (compiling source file src\scantag.cpp)
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(101,7): message : see declaration of 'std::runtime_error' (compiling source file src\scantag.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception' (compiling source file src\scantag.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception' (compiling source file src\scantag.cpp)
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\scantag.cpp)
+  Defining YAML_CPP_API for DLL import
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(82,22): warning C4251: 'YAML::RegEx::m_params': class 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>' needs to have dll-interface to be used by clients of class 'YAML::RegEx' (compiling source file src\scantoken.cpp)
+C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\src\regex_yaml.h(82,8): message : see declaration of 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>' (compiling source file src\scantoken.cpp)
+  Defining YAML_CPP_API for DLL import
   Defining YAML_CPP_API for DLL import
   Defining YAML_CPP_API for DLL import
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception' (compiling source file src\scantoken.cpp)
@@ -591,4 +592,3 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.3193
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception' (compiling source file src\singledocparser.cpp)
 C:\Dev\Imaginengion\Imaginengion\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception' (compiling source file src\singledocparser.cpp)
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5297,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' (compiling source file src\singledocparser.cpp)
-  Defining YAML_CPP_API for DLL import
